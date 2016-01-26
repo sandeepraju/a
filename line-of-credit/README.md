@@ -17,7 +17,7 @@ git clone https://github.com/sandeepraju/a.git
 cd a/line-of-credit/
 ```
 
-* This library uses Postgres database to store all the transactions and hence this library depends on [PsycoPG2](https://github.com/psycopg/psycopg2/) to connect with Postgres from Python. To install these dependencies, run the following commands
+* This library uses Postgres database to store all the transactions and hence depends on [PsycoPG2](https://github.com/psycopg/psycopg2/) to connect with Postgres from Python. To install this dependency, run the following commands
 
 ```
 virtualenv venv  # create a new virtual environment
@@ -25,7 +25,7 @@ source ./venv/bin/activate # activate the virtual environment
 pip install -r requirements.txt
 ```
 
-* Create a database in Postgres and run the supplied `bootstrap.sql` file. This creates the transaction table needed for this library to store its transactions.
+* Create a database in Postgres and run the supplied `bootstrap.sql` file. This creates the transaction table needed for the library to store it's transactions.
 
 ## Running the test cases
 
@@ -36,7 +36,7 @@ cd a/line-of-credit/tests/
 ```
 
 * Open the `settings.py` with the editor of your choice and update the database settings.
-* Once this is done, return back to the directory which has the makefile.
+* Once this is done, return back to the directory which has the `Makefile`.
 
 ```
 cd ../
